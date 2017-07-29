@@ -125,7 +125,7 @@ class moodleDown:
 						self.load_resource(unit_dir+"/"+file_name,j.img['src'],url)
 		else:
 			raise Exception("Subject not found. Did you try calling get_subjects first ?")
-
+'''
 if __name__ == "__main__":
-	instance = moodleDown("ashishshukla","!23XyzAbc")
-	instance.loadSubject('Web Technology(CSB & CSC)')
+	moodleDown().loadAll()
+'''
